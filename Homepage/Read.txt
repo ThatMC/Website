@@ -1,0 +1,21 @@
+I would like to personally thank you for your interest on my work.
+
+This is a free copy of the resource.
+While you are ABSOLUTELY free to edit ANY file and ANY line of the website, you are not allowed to remove my name from the footer.
+I'm supporting you. I'd appreciate it if you did the same.
+
+*** Configuration ***
+Most of the content is configurable and you only have to edit the file index.html or config.js which is located at:
+/js/config.js
+/index.thml
+
+*** Support ***
+I will be more than happy to answer to your questions and fix some small bugs at no cost.
+
+
+*** Contact ***
+
+E-mail: admin@thatmc.tk
+Discord: ThatMC#0001
+Homepage: https://thatmc.tk
+Looking for a website designer, hit me up!

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang- "en">
+
+<head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>ThatMC</title>
+      <meta name="author" content="ThatMC" />
+      <meta name="description" content="ThatMC"
+      />
+      <meta name="keywords" content="" />
+      <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+      <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+      <div class="navbar">
+            <div class="container">
+                  <nav class="transparent z-depth-0">
+                        <div class="nav-wrapper">
+                              <p class="moto">ThatMCNetwork</p>
+                              <a href="#" data-activates="mobile-navbar" class="button-collapse mobile"><i class="material-icons">menu</i></a>
+                              <ul class="right hide-on-med-and-down">
+                                    <li><a href="http://minecraft-mp.com/server/191410/vote/"><i class="fa fa-star"></i> Vote</a></li>
+                                    <li><a href="https://github.com/ThatMC/Website"><i class="fa fa-github"></i> Github</a></li>
+                              </ul>
+                              <ul class="side-nav" id="mobile-navbar">
+                                    <h2 class="mobile-header">Menu</h2>
+                                    <li><a href="#">Vote</a></li>
+                                    <li><a href="#">GitHub</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+            </div>
+      </div>
+      <div class="container">
+            <div class="page">
+                  <div class="row">
+                        <div class="col s12 m12 l8">
+                              <div class="announcements">
+                                          <div class="announcements-header">
+                                                <h4 class="heading">Announcements</h4>
+                                                <p class="sub-heading">The latest <span id="server-name"></span> news</p>
+                                          </div>
+                                          <!-- COPY FROM HERE -->
+                                          <div class="announcements-inner hoverable">
+                                                <h4 class="title">This is a Pinned Title!</h4>
+                                                <p>Oh how cool! This is a Text! Also make sure to not write too much in here!<br/>
+                                                <strong>Bold</strong>, normal.</em>
+
+                                                      <br /> <a href="vote" class="btn btn-custom">BUTTON</a>
+                                                </p>
+                                                <p id="author" class="right-align">📌 Pinned by <a href="YOUR LINK HERE">USERNAME</a></p>
+                                          </div>
+                      
+                                          <div class="announcements-inner hoverable">
+                                                <h4 class="title">This is a posted Title!</h4>
+                                                <p>Oh how cool! This is a Text! Also make sure to not write too much in here!<br/>
+                                                <strong>Bold</strong>, normal.</em>
+
+                                                      <br /> <a href="YOUR LINK HERE" class="btn btn-custom">BUTTON</a>
+                                                </p>
+                                                <p id="author" class="right-align">Posted by <a href="#">USERNAME</a></p>
+                                          </div>
+                                          <!-- TO HERE, TO CREATE YOUR OWN ANNOUNCEMENT -->
+
+                                          <!-- EXAMPLE - UNCOMMENT (remove the < !- - and - ->) THE FOLLOWING -->
+
+                                         <!-- <div class="announcements-inner hoverable">
+                                                <h4 class="title">You did it!</h4>
+                                                <p>
+                                                      Good job, my fellow owner.</em>
+                                                </p>
+                                                <p id="author" class="right-align">Posted by <a href="#">Admin</a></p>
+                                          </div>-->
+
+                                          <!-- END OF EXAMPLE -->
+
+                                    </div>
+                              </div>
+                        <div class="col s12 m12 l4 sidebar">
+                              <div class="inner server hoverable">
+                                    <h2 class="title">Join Us! <i class="fa fa-terminal pull-right"></i></h2>
+                                    <div class="sidebar-content">
+                                          <p class="ip" id="server-ip"></p>
+                                          <span id="serverStatus"></span>
+                                    </div>
+                              </div>
+                              <div class="inner vote hoverable">
+                                    <h2 class="title">Vote <i class="fa fa-star pull-right"></i></h2>
+                                    <div class="sidebar-content">
+                                          <p><strong>Vote for us to support and keep our Network up!</strong></p>
+                                          <p>You can vote by clicking "VOTE"</p><br/>
+                                                <a href="http://minecraft-mp.com/server/191410/vote/" class="btn btn-custom" target="_blank">VOTE</a><br/><br/>
+                                    </div>
+                              </div>
+                              <div class="inner discord hide-on-med-and-down hoverable">
+                                    <h2 class="title">Discord <i class="fa fa-comments pull-right"></i></h2>
+                                    <div class="sidebar-content">
+                                          <iframe src="https://discordapp.com/widget?id=381763214376960000&theme=dark" width="300" height="500" allowtransparency="true" frameborder="0"></iframe> <!-- CHANGE THE src TO YOUR WIDGET - IMPORTANT: MAKE SURE TO CHANGE THE WIDTH FROM 350 TO 300 -->
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+
+
+      <footer class="page-footer transparent">
+            <div class="footer-wrap">
+                  <br/>
+                  <div class="footer-copyright">
+                        <div class="container"> 
+                              <span class="author leftt"><a href="https://thatmc.tk" target="_blank"><img src="images/thatmc.png" alt="Author Logo" width="120" style="margin-top: -10px"></a></span>
+                        </div>
+                  </div>
+            </div>
+      </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+      <script src="https://use.fontawesome.com/cb2592f0cc.js"></script>
+      <script src="js/config.js"></script>
+      <script src="js/main.js"></script>
+</body>
+
+</html>
